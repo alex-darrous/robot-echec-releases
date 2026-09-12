@@ -1,8 +1,8 @@
 {
-  "versionCode": 1,
-  "versionName": "1.0",
-  "apkUrl": "https://github.com/alex-darrous/robot-echec-releases/releases/download/v1.0/robot-echec-1.0.apk",
-  "sha256": "9ea317686f87fda11f67640aa77452a320ba3e4ab541ad59c6b48e220ef9220a",
-  "changelog": "Première version publique.\n\nLe robot joue une partie complète sur un vrai échiquier : lecture de la\nposition par la caméra, IA Minimax à trois niveaux, commande du robot en\nBluetooth.\n\nNouveautés\n- Voix du robot en français ou en anglais, selon la langue de l'application\n- Interface en français, anglais, espagnol et chinois\n- Assistant de configuration au premier lancement\n- Classement personnel Glicko-2 avec historique\n- Mises à jour vérifiées et installées depuis l'application\n\nCorrections\n- L'application ne se ferme plus si la permission Bluetooth est refusée\n  sur Android 12 et suivants\n- La promotion d'un pion était parfois refusée comme coup illégal\n- La calibration était annoncée comme envoyée au robot sans l'être\n\n",
+  "versionCode": 2,
+  "versionName": "1.1",
+  "apkUrl": "https://github.com/alex-darrous/robot-echec-releases/releases/download/v1.1/robot-echec-1.1.apk",
+  "sha256": "33559e8638c95fb872e8d8d8663883ddc5afc6615f951afd6447e4cdd0705b9c",
+  "changelog": "Mise à jour de sécurité, recommandée.\n\nLe jeton du bot qui reçoit les retours était embarqué dans la version 1.0\net pouvait en être extrait. Il n'est plus dans l'application : les avis,\nsignalements et photos de partie passent désormais par un relais.\n\nCorrigé également\n- La file d'attente des rapports pouvait grossir sans fin quand l'envoi\n  échouait. Elle est maintenant plafonnée.\n\n",
   "publishedAt": "2026-09-12"
 }
