@@ -3,6 +3,6 @@
   "versionName": "1.0",
   "apkUrl": "https://github.com/alex-darrous/robot-echec-releases/releases/download/v1.0/robot-echec-1.0.apk",
   "sha256": "9ea317686f87fda11f67640aa77452a320ba3e4ab541ad59c6b48e220ef9220a",
-  "changelog": "fix(ci): rendre gradlew executable\n\nLe fichier etait enregistre en 100644, sans bit d'execution : sur le\nrunner Linux, ./gradlew renvoyait « Permission denied » et le job\ns'arretait avec le code 126. Sans effet sur Windows, ou le bit n'existe\npas.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\n\n",
+  "changelog": "Première version publique.\n\nLe robot joue une partie complète sur un vrai échiquier : lecture de la\nposition par la caméra, IA Minimax à trois niveaux, commande du robot en\nBluetooth.\n\nNouveautés\n- Voix du robot en français ou en anglais, selon la langue de l'application\n- Interface en français, anglais, espagnol et chinois\n- Assistant de configuration au premier lancement\n- Classement personnel Glicko-2 avec historique\n- Mises à jour vérifiées et installées depuis l'application\n\nCorrections\n- L'application ne se ferme plus si la permission Bluetooth est refusée\n  sur Android 12 et suivants\n- La promotion d'un pion était parfois refusée comme coup illégal\n- La calibration était annoncée comme envoyée au robot sans l'être\n\n",
   "publishedAt": "2026-09-12"
 }
