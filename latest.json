@@ -1,8 +1,8 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1",
-  "apkUrl": "https://github.com/alex-darrous/robot-echec-releases/releases/download/v1.1/robot-echec-1.1.apk",
-  "sha256": "33559e8638c95fb872e8d8d8663883ddc5afc6615f951afd6447e4cdd0705b9c",
-  "changelog": "Mise à jour de sécurité, recommandée.\n\nLe jeton du bot qui reçoit les retours était embarqué dans la version 1.0\net pouvait en être extrait. Il n'est plus dans l'application : les avis,\nsignalements et photos de partie passent désormais par un relais.\n\nCorrigé également\n- La file d'attente des rapports pouvait grossir sans fin quand l'envoi\n  échouait. Elle est maintenant plafonnée.\n\n",
+  "versionCode": 3,
+  "versionName": "1.2",
+  "apkUrl": "https://github.com/alex-darrous/robot-echec-releases/releases/download/v1.2/robot-echec-1.2.apk",
+  "sha256": "22ec4d012d92c13c33745eeb6e461f85ffb495662ad5a4bd24c7470591342878",
+  "changelog": "Correction d'affichage.\n\nLe bas de l'écran d'accueil annonçait « V1.0 » quelle que soit la version\ninstallée. Il affiche désormais la vraie version, et suivra chaque mise à\njour.\n\n",
   "publishedAt": "2026-09-12"
 }
